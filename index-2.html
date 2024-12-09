@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="section py-4">
+      <div class="container">
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand mr-5">
+            <a class="navbar-item" href="https://bulma.io">
+              <img
+                src="/public/img/emdeedavid-logo.png"
+                alt="emdeedavid-logo"
+              />
+              <span class="is-size-5 has-text-weight-bold">
+                Emdee David Blog
+              </span>
+            </a>
+
+            <a
+              role="button"
+              class="navbar-burger"
+              aria-label="menu"
+              aria-expanded="false"
+              data-target="navbarBasicExample"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+
+          <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+              <a class="navbar-item"> Home </a>
+
+              <a class="navbar-item"> About </a>
+
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link"> Categories </a>
+
+                <div class="navbar-dropdown">
+                  <a class="navbar-item"> Articles </a>
+                  <a class="navbar-item"> Business </a>
+                  <a class="navbar-item"> Entertainment </a>
+                  <hr class="navbar-divider" />
+                  <a class="navbar-item"> Report an issue </a>
+                </div>
+              </div>
+
+              <a class="navbar-item">Adverts</a>
+            </div>
+
+            <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button is-light is-rounded pb-3"> Contact </a>
+                  <a class="button is-link is-rounded pb-3">
+                    <strong>Sign up</strong>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="hero is-info is-halfheight">
+          <div class="hero-body">
+            <div class="container">
+              <p class="title">Half height hero</p>
+              <p class="subtitle">Half height subtitle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-three-quarters">
+            <div class="tabs">
+              <ul>
+                <li><a>All</a></li>
+                <li class="is-active"><a>Articles</a></li>
+                <li><a>Business</a></li>
+                <li><a>Entertainment</a></li>
+                <li><a>International</a></li>
+                <li><a>Lifestyle</a></li>
+                <li><a>News</a></li>
+                <li><a>Opinions</a></li>
+                <li><a>Politics</a></li>
+                <li><a>Sports</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="column">
+            <div class="field">
+              <div class="control has-icons-right">
+                <input class="input" type="email" placeholder="Search blog" />
+                <span class="icon is-small is-right">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="svg-icon"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <label class="label"></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-4">
+      <div class="container">
+        <div class="columns">
+          <div class="column post">
+            <div class="post__card">
+              <div class="post__card-header">
+                <figure class="image is-3by2">
+                  <img
+                    class="post"
+                    src="https://placehold.co/300x200?text=300+x+200+image&font=roboto"
+                    alt=""
+                  />
+                  <div class="post__card-category">
+                    <a
+                      class="is-size-7 has-text-grey has-text-weight-medium badge badge__secondary"
+                      href="#"
+                    >
+                      Articles
+                    </a>
+                    <span class="is-size-7">3 min read</span>
+                  </div>
+                </figure>
+
+                <div class="post__card-content">
+                  <a class="has-text-weight-medium" href="#">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Vitae quis ipsum quam debitis, sapiente fugit!
+                  </a>
+                </div>
+              </div>
+
+              <div class="post__card-footer">
+                <div class="is-flex is-align-items-center">
+                  <figure class="image is-48x48">
+                    <img
+                      class="is-rounded"
+                      src="https://placehold.co/48x48?font=roboto"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="is-flex is-flex-direction-column ml-3">
+                    <span class="has-text-weight-bold is-capitalized">
+                      Author name
+                    </span>
+                    <span class="is-size-7">
+                      Published on Dec 06, 2024 at 2:47PM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column post">
+            <div class="post__card">
+              <div class="post__card-header">
+                <figure class="image is-3by2">
+                  <img
+                    class="post"
+                    src="https://placehold.co/300x200?text=300+x+200+image&font=roboto"
+                    alt=""
+                  />
+
+                  <div class="post__card-category">
+                    <a
+                      class="is-size-7 has-text-grey has-text-weight-medium badge badge__secondary"
+                      href="#"
+                    >
+                      Articles
+                    </a>
+                    <span class="is-size-7">3 min read</span>
+                  </div>
+                </figure>
+
+                <div class="post__card-content">
+                  <a class="has-text-weight-medium" href="#">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque corporis explicabo recusandae quis et cupiditate!
+                  </a>
+                </div>
+              </div>
+
+              <div class="post__card-footer">
+                <div class="is-flex is-align-items-center">
+                  <figure class="image is-48x48">
+                    <img
+                      class="is-rounded"
+                      src="https://placehold.co/48x48?font=roboto"
+                      alt=""
+                    />
+                  </figure>
+
+                  <div class="is-flex is-flex-direction-column ml-3">
+                    <span class="has-text-weight-bold is-capitalized">
+                      Author name
+                    </span>
+                    <span class="is-size-7">
+                      Published on Dec 06, 2024 at 2:47PM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column post">
+            <div class="post__card">
+              <div class="post__card-header">
+                <figure class="image is-3by2">
+                  <img
+                    class="post"
+                    src="https://placehold.co/300x200?text=300+x+200+image&font=roboto"
+                    alt=""
+                  />
+
+                  <div class="post__card-category">
+                    <a
+                      class="is-size-7 has-text-grey has-text-weight-medium badge badge__secondary"
+                      href="#"
+                    >
+                      Articles
+                    </a>
+                    <span class="is-size-7">3 min read</span>
+                  </div>
+                </figure>
+
+                <div class="post__card-content">
+                  <a class="has-text-weight-medium" href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Atque ratione, nobis sapiente ullam ipsum cumque!
+                  </a>
+                </div>
+              </div>
+
+              <div class="post__card-footer">
+                <div class="is-flex is-align-items-center">
+                  <figure class="image is-48x48">
+                    <img
+                      class="is-rounded"
+                      src="https://placehold.co/48x48?font=roboto"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="is-flex is-flex-direction-column ml-3">
+                    <span class="has-text-weight-bold is-capitalized">
+                      Author name
+                    </span>
+                    <span class="is-size-7">
+                      Published on Dec 06, 2024 at 2:47PM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column post">
+            <div class="post__card">
+              <div class="post__card-header">
+                <figure class="image is-3by2">
+                  <img
+                    class="post"
+                    src="https://placehold.co/300x200?text=300+x+200+image&font=roboto"
+                    alt=""
+                  />
+                  <div class="post__card-category">
+                    <a
+                      class="is-size-7 has-text-grey has-text-weight-medium badge badge__secondary"
+                      href="#"
+                    >
+                      Articles
+                    </a>
+                    <span class="is-size-7">3 min read</span>
+                  </div>
+                </figure>
+
+                <div class="post__card-content">
+                  <a class="has-text-weight-medium" href="#">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Vitae quis ipsum quam debitis, sapiente fugit!
+                  </a>
+                </div>
+              </div>
+
+              <div class="post__card-footer">
+                <div class="is-flex is-align-items-center">
+                  <figure class="image is-48x48">
+                    <img
+                      class="is-rounded"
+                      src="https://placehold.co/48x48?font=roboto"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="is-flex is-flex-direction-column ml-3">
+                    <span class="has-text-weight-bold is-capitalized">
+                      Author name
+                    </span>
+                    <span class="is-size-7">
+                      Published on Dec 06, 2024 at 2:47PM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section post">
+      <div class="container">
+        <div class="columns">
+          <div class="column post">
+            <div class="post__card">
+              <div class="post__card-header">
+                <figure class="image is-3by2">
+                  <img
+                    class="post"
+                    src="https://placehold.co/300x200?text=300+x+200+image&font=roboto"
+                    alt=""
+                  />
+                  <div class="post__card-category">
+                    <a
+                      class="is-size-7 has-text-grey has-text-weight-medium badge badge__secondary"
+                      href="#"
+                    >
+                      Articles
+                    </a>
+                    <span class="is-size-7">3 min read</span>
+                  </div>
+                </figure>
+
+                <div class="post__card-content">
+                  <a class="has-text-weight-medium" href="#">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Vitae quis ipsum quam debitis, sapiente fugit!
+                  </a>
+                </div>
+              </div>
+
+              <div class="post__card-footer">
+                <div class="is-flex is-align-items-center">
+                  <figure class="image is-48x48">
+                    <img
+                      class="is-rounded"
+                      src="https://placehold.co/48x48?font=roboto"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="is-flex is-flex-direction-column ml-3">
+                    <span class="has-text-weight-bold is-capitalized">
+                      Author name
+                    </span>
+                    <span class="is-size-7">
+                      Published on Dec 06, 2024 at 2:47PM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column post">
+            <div class="post__card">
+              <div class="post__card-header">
+                <figure class="image is-3by2">
+                  <img
+                    class="post"
+                    src="https://placehold.co/300x200?text=300+x+200+image&font=roboto"
+                    alt=""
+                  />
+
+                  <div class="post__card-category">
+                    <a
+                      class="is-size-7 has-text-grey has-text-weight-medium badge badge__secondary"
+                      href="#"
+                    >
+                      Articles
+                    </a>
+                    <span class="is-size-7">3 min read</span>
+                  </div>
+                </figure>
+
+                <div class="post__card-content">
+                  <a class="has-text-weight-medium" href="#">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque corporis explicabo recusandae quis et cupiditate!
+                  </a>
+                </div>
+              </div>
+
+              <div class="post__card-footer">
+                <div class="is-flex is-align-items-center">
+                  <figure class="image is-48x48">
+                    <img
+                      class="is-rounded"
+                      src="https://placehold.co/48x48?font=roboto"
+                      alt=""
+                    />
+                  </figure>
+
+                  <div class="is-flex is-flex-direction-column ml-3">
+                    <span class="has-text-weight-bold is-capitalized">
+                      Author name
+                    </span>
+                    <span class="is-size-7">
+                      Published on Dec 06, 2024 at 2:47PM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column post">
+            <div class="post__card">
+              <div class="post__card-header">
+                <figure class="image is-3by2">
+                  <img
+                    class="post"
+                    src="https://placehold.co/300x200?text=300+x+200+image&font=roboto"
+                    alt=""
+                  />
+
+                  <div class="post__card-category">
+                    <a
+                      class="is-size-7 has-text-grey has-text-weight-medium badge badge__secondary"
+                      href="#"
+                    >
+                      Articles
+                    </a>
+                    <span class="is-size-7">3 min read</span>
+                  </div>
+                </figure>
+
+                <div class="post__card-content">
+                  <a class="has-text-weight-medium" href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Atque ratione, nobis sapiente ullam ipsum cumque!
+                  </a>
+                </div>
+              </div>
+
+              <div class="post__card-footer">
+                <div class="is-flex is-align-items-center">
+                  <figure class="image is-48x48">
+                    <img
+                      class="is-rounded"
+                      src="https://placehold.co/48x48?font=roboto"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="is-flex is-flex-direction-column ml-3">
+                    <span class="has-text-weight-bold is-capitalized">
+                      Author name
+                    </span>
+                    <span class="is-size-7">
+                      Published on Dec 06, 2024 at 2:47PM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column post">
+            <div class="post__card">
+              <div class="post__card-header">
+                <figure class="image is-3by2">
+                  <img
+                    class="post"
+                    src="https://placehold.co/300x200?text=300+x+200+image&font=roboto"
+                    alt=""
+                  />
+                  <div class="post__card-category">
+                    <a
+                      class="is-size-7 has-text-grey has-text-weight-medium badge badge__secondary"
+                      href="#"
+                    >
+                      Articles
+                    </a>
+                    <span class="is-size-7">3 min read</span>
+                  </div>
+                </figure>
+
+                <div class="post__card-content">
+                  <a class="has-text-weight-medium" href="#">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Vitae quis ipsum quam debitis, sapiente fugit!
+                  </a>
+                </div>
+              </div>
+
+              <div class="post__card-footer">
+                <div class="is-flex is-align-items-center">
+                  <figure class="image is-48x48">
+                    <img
+                      class="is-rounded"
+                      src="https://placehold.co/48x48?font=roboto"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="is-flex is-flex-direction-column ml-3">
+                    <span class="has-text-weight-bold is-capitalized">
+                      Author name
+                    </span>
+                    <span class="is-size-7">
+                      Published on Dec 06, 2024 at 2:47PM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section post">
+      <div class="container">
+        <div class="columns">
+          <div class="column post">
+            <div class="post__card">
+              <div class="post__card-header">
+                <figure class="image is-3by2">
+                  <img
+                    class="post"
+                    src="https://placehold.co/300x200?text=300+x+200+image&font=roboto"
+                    alt=""
+                  />
+                  <div class="post__card-category">
+                    <a
+                      class="is-size-7 has-text-grey has-text-weight-medium badge badge__secondary"
+                      href="#"
+                    >
+                      Articles
+                    </a>
+                    <span class="is-size-7">3 min read</span>
+                  </div>
+                </figure>
+
+                <div class="post__card-content">
+                  <a class="has-text-weight-medium" href="#">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Vitae quis ipsum quam debitis, sapiente fugit!
+                  </a>
+                </div>
+              </div>
+
+              <div class="post__card-footer">
+                <div class="is-flex is-align-items-center">
+                  <figure class="image is-48x48">
+                    <img
+                      class="is-rounded"
+                      src="https://placehold.co/48x48?font=roboto"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="is-flex is-flex-direction-column ml-3">
+                    <span class="has-text-weight-bold is-capitalized">
+                      Author name
+                    </span>
+                    <span class="is-size-7">
+                      Published on Dec 06, 2024 at 2:47PM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column post">
+            <div class="post__card">
+              <div class="post__card-header">
+                <figure class="image is-3by2">
+                  <img
+                    class="post"
+                    src="https://placehold.co/300x200?text=300+x+200+image&font=roboto"
+                    alt=""
+                  />
+
+                  <div class="post__card-category">
+                    <a
+                      class="is-size-7 has-text-grey has-text-weight-medium badge badge__secondary"
+                      href="#"
+                    >
+                      Articles
+                    </a>
+                    <span class="is-size-7">3 min read</span>
+                  </div>
+                </figure>
+
+                <div class="post__card-content">
+                  <a class="has-text-weight-medium" href="#">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Eaque corporis explicabo recusandae quis et cupiditate!
+                  </a>
+                </div>
+              </div>
+
+              <div class="post__card-footer">
+                <div class="is-flex is-align-items-center">
+                  <figure class="image is-48x48">
+                    <img
+                      class="is-rounded"
+                      src="https://placehold.co/48x48?font=roboto"
+                      alt=""
+                    />
+                  </figure>
+
+                  <div class="is-flex is-flex-direction-column ml-3">
+                    <span class="has-text-weight-bold is-capitalized">
+                      Author name
+                    </span>
+                    <span class="is-size-7">
+                      Published on Dec 06, 2024 at 2:47PM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column post">
+            <div class="post__card">
+              <div class="post__card-header">
+                <figure class="image is-3by2">
+                  <img
+                    class="post"
+                    src="https://placehold.co/300x200?text=300+x+200+image&font=roboto"
+                    alt=""
+                  />
+
+                  <div class="post__card-category">
+                    <a
+                      class="is-size-7 has-text-grey has-text-weight-medium badge badge__secondary"
+                      href="#"
+                    >
+                      Articles
+                    </a>
+                    <span class="is-size-7">3 min read</span>
+                  </div>
+                </figure>
+
+                <div class="post__card-content">
+                  <a class="has-text-weight-medium" href="#">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Atque ratione, nobis sapiente ullam ipsum cumque!
+                  </a>
+                </div>
+              </div>
+
+              <div class="post__card-footer">
+                <div class="is-flex is-align-items-center">
+                  <figure class="image is-48x48">
+                    <img
+                      class="is-rounded"
+                      src="https://placehold.co/48x48?font=roboto"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="is-flex is-flex-direction-column ml-3">
+                    <span class="has-text-weight-bold is-capitalized">
+                      Author name
+                    </span>
+                    <span class="is-size-7">
+                      Published on Dec 06, 2024 at 2:47PM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="column post">
+            <div class="post__card">
+              <div class="post__card-header">
+                <figure class="image is-3by2">
+                  <img
+                    class="post"
+                    src="https://placehold.co/300x200?text=300+x+200+image&font=roboto"
+                    alt=""
+                  />
+                  <div class="post__card-category">
+                    <a
+                      class="is-size-7 has-text-grey has-text-weight-medium badge badge__secondary"
+                      href="#"
+                    >
+                      Articles
+                    </a>
+                    <span class="is-size-7">3 min read</span>
+                  </div>
+                </figure>
+
+                <div class="post__card-content">
+                  <a class="has-text-weight-medium" href="#">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Vitae quis ipsum quam debitis, sapiente fugit!
+                  </a>
+                </div>
+              </div>
+
+              <div class="post__card-footer">
+                <div class="is-flex is-align-items-center">
+                  <figure class="image is-48x48">
+                    <img
+                      class="is-rounded"
+                      src="https://placehold.co/48x48?font=roboto"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="is-flex is-flex-direction-column ml-3">
+                    <span class="has-text-weight-bold is-capitalized">
+                      Author name
+                    </span>
+                    <span class="is-size-7">
+                      Published on Dec 06, 2024 at 2:47PM
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
